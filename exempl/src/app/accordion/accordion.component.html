@@ -1,0 +1,12 @@
+<h1 class="title">Accordion Example</h1>
+<span routerLink="/" class="back">Back</span>
+<div class="cards">
+    <mat-card class="card" *ngFor="let itm of data_json; let i = index;">
+        <p class="card-title" (click)="Accordion('idx'+i)">{{ itm.title }}</p>
+        <div class="card-text" *ngIf="isShown('idx'+i)">
+            <ol>
+                <li *ngFor="let itmx of itm.ingredients;">{{ itmx }}</li>
+            </ol>
+        </div>
+    </mat-card>
+</div>
