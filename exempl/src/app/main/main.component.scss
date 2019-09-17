@@ -18,6 +18,17 @@
 
 .link {
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
     font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.link-btn {
+    margin-left: 15px;
+    border: 1px solid #0cd43edc;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #0cd43edc;
 }
