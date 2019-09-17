@@ -5,5 +5,5 @@ my experience in development Angular 8+ aplication
 
 to view:
 
-$ cd exempl
+$ cd exempl<br>
 $ ng serve
