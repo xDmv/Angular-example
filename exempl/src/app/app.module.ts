@@ -12,12 +12,18 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { ComponentAComponent } from './pages/component-a/component-a.component';
+import { ComponentBComponent } from './pages/component-b/component-b.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    AccordionComponent
+    AccordionComponent,
+    ComponentAComponent,
+    ComponentBComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
