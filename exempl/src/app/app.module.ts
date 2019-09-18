@@ -15,6 +15,8 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { ComponentAComponent } from './pages/component-a/component-a.component';
 import { ComponentBComponent } from './pages/component-b/component-b.component';
 import { ServiceComponent } from './service/service.component';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
+import { MaterialComponent } from './material/material.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ServiceComponent } from './service/service.component';
     AccordionComponent,
     ComponentAComponent,
     ComponentBComponent,
-    ServiceComponent
+    ServiceComponent,
+    BootstrapComponent,
+    MaterialComponent
   ],
   imports: [
     BrowserModule,
