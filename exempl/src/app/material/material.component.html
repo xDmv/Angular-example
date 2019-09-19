@@ -7,22 +7,37 @@
             <li>Command in console app: ng add @angular/material</li>
             <li>
                 <p>add in app.module.ts this code:</p>
-                <pre><code>
-                    <span>import </span>
-                    " {{BrowserAnimationsModule} "
-                    <span> from '@angular/platform-browser/animations';</span>
+                <pre><code class="list-code">
+<span>import </span><span>&#123;</span> BrowserAnimationsModule <span>&#125;</span><span> from '@angular/platform-browser/animations';</span>
+                    ...
+<span>
+    @NgModule(&#123;
+    ...
+    imports: [BrowserAnimationsModule],
+    ...
+    &#125;)
+</span>
                 </code></pre>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+                <p>Import the component modules</p>
+                <pre><code class="list-code">
+import &#123;MatButtonModule&#125; from '@angular/material/button';
+import &#123;MatCheckboxModule&#125; from '@angular/material/checkbox';
+
+@NgModule(&#123;
+  ...
+  imports: [MatButtonModule, MatCheckboxModule],
+  ...
+&#125;)
+export class PizzaPartyAppModule &#123; &#125;
+</code></pre>
+            </li>
+            <li>
+                <p>Include a theme</p>
+                <p>in file style.scss include example: <br> @import "~@angular/material/prebuilt-themes/indigo-pink.css";</p>
+            </li>
         </ol>
-        <p>Command in console app: ng add @angular/material</p>
-        <pre>
-            add in app.module.ts this code:
-            
-        </pre>
-        <div></div>
         <p>Official documentation: <a href="https://material.angular.io/guide/getting-started" target="blank">link</a></p>
     </div>
 </div>
