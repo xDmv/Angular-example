@@ -8,28 +8,25 @@
 .card {
     margin-left: 150px;
     margin-right: 150px;
-}
-
-.text {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
-    color: #199e57dc;
-}
-
-.link {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: blue;
-}
-
-.link-btn {
-    margin-left: 15px;
-    border: 1px solid blue;
-    border-radius: 15px;
-    text-decoration: none;
-    padding: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    color: blue;
+    .text {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        color: #eedf08dc;
+    }
+    .link {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: rgb(0, 238, 255);
+    }
+    .link-btn {
+        margin-left: 15px;
+        border: 1px solid rgb(0, 238, 255);
+        border-radius: 15px;
+        text-decoration: none;
+        padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: rgb(0, 238, 255);
+    }
 }
