@@ -1,0 +1,23 @@
+.bg-page {
+    background: #002B36;
+    height: 1000px;
+    .title {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 32px;
+        color: #c2c2c2;
+        text-align: center;
+    }
+    .back {
+        margin-top: 50px;
+    }
+    .box-example {
+        margin-top: 25px;
+        .box-header {
+            margin-top: 15px;
+            color: #839496;
+        }
+        .box-list {
+            color: #2AA198;
+        }
+    }
+}
