@@ -7,6 +7,7 @@ import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { ServiceComponent } from './service/service.component';
 import { RecursionComponent } from './recursion/recursion.component';
+import { VideoComponent } from './video/video.component';
 
 
 const routes: Routes = [
@@ -34,6 +35,10 @@ const routes: Routes = [
     path: 'recursion',
     component: RecursionComponent,
     data: { title: 'RecursionComponent' }
+  },
+  {
+    path: 'video',
+    component: VideoComponent
   },
   {
     path: 'service',

@@ -18,6 +18,7 @@ import { ServiceComponent } from './service/service.component';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { MaterialComponent } from './material/material.component';
 import { RecursionComponent } from './recursion/recursion.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RecursionComponent } from './recursion/recursion.component';
     ServiceComponent,
     BootstrapComponent,
     MaterialComponent,
-    RecursionComponent
+    RecursionComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
