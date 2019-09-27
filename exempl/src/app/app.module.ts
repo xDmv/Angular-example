@@ -17,6 +17,7 @@ import { ComponentBComponent } from './pages/component-b/component-b.component';
 import { ServiceComponent } from './service/service.component';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { MaterialComponent } from './material/material.component';
+import { RecursionComponent } from './recursion/recursion.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MaterialComponent } from './material/material.component';
     ComponentBComponent,
     ServiceComponent,
     BootstrapComponent,
-    MaterialComponent
+    MaterialComponent,
+    RecursionComponent
   ],
   imports: [
     BrowserModule,

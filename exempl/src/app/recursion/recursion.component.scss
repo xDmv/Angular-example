@@ -1,0 +1,56 @@
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #1310b9dc;
+    text-align: center;
+}
+
+.tabs {
+    margin: 10px 50px;
+}
+
+.back {
+    margin-left: 50px;
+}
+
+h3{
+    margin: 25px 50px 0 50px;
+}
+
+.clock{
+    margin: 15px 0 15px 0;
+    width: 300px;
+    height: 300px;
+    background: #757494dc;
+    border-radius: 150px;
+    border: 2px solid greenyellow;
+    .hours{
+        border: 3px solid  greenyellow;
+        position: relative;
+        top: 150px;
+        left: 150px;
+        width: 45px;
+        transform-origin: 0;
+    }
+    .minuts{
+        border: 2px solid blue;
+        position: relative;
+        top: 145px;
+        left: 150px;
+        width: 75px;
+        transform-origin: 0;
+    }
+    .seconds{
+        border: 1px solid black;
+        position: relative;
+        top: 145px;
+        left: 150px;
+        width: 135px;
+        transform-origin: 0;
+        // -ms-transform: rotate(20deg);
+        // -webkit-transform: rotate(20deg);
+        // -o-transform: rotate(20deg);
+        // -moz-transform: rotate(20deg);
+        // transform: rotate(20deg);
+    }
+}

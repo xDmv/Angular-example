@@ -6,6 +6,7 @@ import { MaterialComponent } from './material/material.component';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { ServiceComponent } from './service/service.component';
+import { RecursionComponent } from './recursion/recursion.component';
 
 
 const routes: Routes = [
@@ -17,17 +18,22 @@ const routes: Routes = [
   {
     path: 'material',
     component: MaterialComponent,
-    data: { title: 'AccordionComponent' }
+    data: { title: 'MaterialComponent' }
   },
   {
     path: 'bootstrap',
     component: BootstrapComponent,
-    data: { title: 'AccordionComponent' }
+    data: { title: 'BootstrapComponent' }
   },
   {
     path: 'accordion',
     component: AccordionComponent,
     data: { title: 'AccordionComponent' }
+  },
+  {
+    path: 'recursion',
+    component: RecursionComponent,
+    data: { title: 'RecursionComponent' }
   },
   {
     path: 'service',

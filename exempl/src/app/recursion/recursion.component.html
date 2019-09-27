@@ -1,0 +1,88 @@
+<h1 class="title">Recursion functions</h1>
+<span routerLink="/" class="back"><button mat-raised-button>Back</button></span>
+
+<h3>Example 1</h3>
+<mat-tab-group class="tabs">
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span style="color:blue;">Example View</span>
+        </ng-template>
+        <div>
+            <p>Time Now: {{ showntime }}</p>
+            <div class="clock">
+                <div class="hours" [ngStyle]="{'transform': stringtime[0].hours}"></div>
+                <div class="minuts" [ngStyle]="{'transform': stringtime[0].minutes}"></div>
+                <div class="seconds" 
+                [ngStyle]="{'transform': stringtime[0].seconds}"
+                >
+                </div>
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span style="color:blue;">HTML</span>
+        </ng-template>
+        <pre>
+            html code
+        </pre>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span style="color:blue;">TS</span>
+        </ng-template>
+        <pre>
+            <code>
+code
+            </code>
+        </pre>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span style="color:blue;">CSS</span>
+        </ng-template>
+        <pre>
+            <code>
+                code
+            </code>
+        </pre>
+    </mat-tab>
+</mat-tab-group>
+
+<h3>Example 2</h3>
+<mat-tab-group class="tabs">
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span style="color:blue;">Example View</span>
+        </ng-template>
+        Example View
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span style="color:blue;">HTML</span>
+        </ng-template>
+        <pre>
+            html code
+        </pre>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span style="color:blue;">TS</span>
+        </ng-template>
+        <pre>
+            <code>
+code
+            </code>
+        </pre>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span style="color:blue;">CSS</span>
+        </ng-template>
+        <pre>
+            <code>
+                code
+            </code>
+        </pre>
+    </mat-tab>
+</mat-tab-group>
