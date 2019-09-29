@@ -9,6 +9,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatButtonModule } from '@angular/material/button';
+import { MatVideoModule } from 'mat-video';
 
 import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './accordion/accordion.component';
@@ -41,7 +42,8 @@ import { VideoComponent } from './video/video.component';
     MatCardModule,
     MatListModule,
     MatTabsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatVideoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
