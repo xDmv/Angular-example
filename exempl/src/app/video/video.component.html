@@ -2,8 +2,22 @@
 <span routerLink="/" class="back"><button mat-raised-button>Back</button></span>
 
 <div class="container">
-    <!-- <mat-video title="Bramio" [autoplay]="true" [preload]="true" [fullscreen]="false" [download]="false" color="accent" spinner="spin">
-        <source matVideoSource src="/src/assets/video/video.mp4" type="video/mp4">
-    </mat-video> -->
-    <mat-video src="/src/assets/video/video.mp4"></mat-video>
+    <div style="margin-top: 15px;">
+        <mat-video spinner="hourglass" src="../../assets/video/video.mp4"></mat-video>
+    </div>
+    <div style="margin-top: 15px;">
+        <mat-video
+        title="'Over the Hills and Far Away' - Patty Gurdy (Gary Moore / Nightwish Hurdy Gurdy Cover)" 
+        [autoplay]="false"
+        [preload]="true" 
+        [loop]= "false"
+        [fullscreen]="false" 
+        [download]="false" 
+        spinner="hourglass" 
+        poster= "../../assets/video/preview.jpg"
+        [overlay]="true"
+        >
+            <source matVideoSource src="../../assets/video/video.mp4" type="video/mp4">
+        </mat-video>
+    </div>
 </div>
