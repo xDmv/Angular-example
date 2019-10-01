@@ -2,19 +2,25 @@
 <span routerLink="/" class="back"><button mat-raised-button>Back</button></span>
 
 <div class="container">
+    <!-- <iframe width="1858" height="783" src="https://www.youtube.com/embed/AC5K-_LURvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     <div style="margin-top: 15px;">
-        <mat-video spinner="hourglass" src="../../assets/video/video.mp4"></mat-video>
+        <video width="640" poster="../../assets/video/preview.jpg" controls>
+            <source src="../../assets/video/video.mp4" type="video/mp4">
+        </video>
     </div>
+    <!-- <div style="margin-top: 15px;">
+        <mat-video spinner="hourglass" src="../../assets/video/video.mp4"></mat-video>
+    </div> -->
     <div style="margin-top: 15px;">
         <mat-video
         title="'Over the Hills and Far Away' - Patty Gurdy (Gary Moore / Nightwish Hurdy Gurdy Cover)" 
         [autoplay]="false"
-        [preload]="true" 
+        [preload]="false" 
         [loop]= "false"
-        [fullscreen]="false" 
+        [fullscreen]="true" 
         [download]="false" 
         spinner="hourglass" 
-        poster= "../../assets/video/preview.jpg"
+        poster="../../assets/video/preview.jpg"
         [overlay]="true"
         >
             <source matVideoSource src="../../assets/video/video.mp4" type="video/mp4">
