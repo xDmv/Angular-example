@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +10,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatButtonModule } from '@angular/material/button';
 import { MatVideoModule } from 'mat-video';
+import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
+import { FormsModule } from '@angular/forms';
 
 import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './accordion/accordion.component';
@@ -20,6 +22,9 @@ import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { MaterialComponent } from './material/material.component';
 import { RecursionComponent } from './recursion/recursion.component';
 import { VideoComponent } from './video/video.component';
+import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
+
+
 
 @NgModule({
   declarations: [
@@ -32,7 +37,8 @@ import { VideoComponent } from './video/video.component';
     BootstrapComponent,
     MaterialComponent,
     RecursionComponent,
-    VideoComponent
+    VideoComponent,
+    Ckeditor5Component
   ],
   imports: [
     BrowserModule,
@@ -43,9 +49,12 @@ import { VideoComponent } from './video/video.component';
     MatListModule,
     MatTabsModule,
     MatButtonModule,
-    MatVideoModule
+    MatVideoModule,
+    CKEditorModule,
+    FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+	schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
