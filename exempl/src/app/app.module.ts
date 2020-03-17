@@ -12,6 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatVideoModule } from 'mat-video';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import { FormsModule } from '@angular/forms';
+import { EditorModule } from '@tinymce/tinymce-angular';
 
 import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './accordion/accordion.component';
@@ -23,6 +24,7 @@ import { MaterialComponent } from './material/material.component';
 import { RecursionComponent } from './recursion/recursion.component';
 import { VideoComponent } from './video/video.component';
 import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
+import { TinymceComponent } from './tinymce/tinymce.component';
 
 
 
@@ -38,7 +40,8 @@ import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
     MaterialComponent,
     RecursionComponent,
     VideoComponent,
-    Ckeditor5Component
+    Ckeditor5Component,
+    TinymceComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +54,8 @@ import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
     MatButtonModule,
     MatVideoModule,
     CKEditorModule,
-    FormsModule
+    FormsModule,
+    EditorModule
   ],
   providers: [],
   bootstrap: [AppComponent],
