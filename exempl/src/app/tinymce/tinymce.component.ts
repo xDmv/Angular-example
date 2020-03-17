@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// declare var tinymce: any;
+
 
 @Component({
   selector: 'app-tinymce',
@@ -13,10 +13,6 @@ export class TinymceComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    // tinymce.init(
-    //   {
-    //       selector: "#mymce1"
-    //   });
   }
 
   onGetDataEditor(){
