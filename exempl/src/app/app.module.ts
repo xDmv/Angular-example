@@ -12,7 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatVideoModule } from 'mat-video';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import { FormsModule } from '@angular/forms';
-import { EditorModule } from '@tinymce/tinymce-angular';
+import { EditorModule, TINYMCE_SCRIPT_SRC } from '@tinymce/tinymce-angular';
 
 import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './accordion/accordion.component';
@@ -57,7 +57,9 @@ import { TinymceComponent } from './tinymce/tinymce.component';
     FormsModule,
     EditorModule
   ],
-  providers: [],
+  providers: [
+    { provide: TINYMCE_SCRIPT_SRC, useValue: 'tinymce/tinymce.min.js' }
+  ],
   bootstrap: [AppComponent],
 	schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
