@@ -8,6 +8,9 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { ServiceComponent } from './service/service.component';
 import { RecursionComponent } from './recursion/recursion.component';
 import { VideoComponent } from './video/video.component';
+import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
+import { TinymceComponent } from './tinymce/tinymce.component';
+import { GetfileComponent } from './getfile/getfile.component';
 
 
 const routes: Routes = [
@@ -44,6 +47,21 @@ const routes: Routes = [
     path: 'service',
     component: ServiceComponent,
     data: { title: 'AccordionComponent' }
+  },
+  {
+    path: 'ckeditor',
+    component: Ckeditor5Component,
+    data: { title: 'AddCkeditor5' }
+  },
+  {
+    path: 'tinymce',
+    component: TinymceComponent,
+    data: { title: 'AddCkeditor5' }
+  },
+  {
+    path: 'postfile',
+    component: GetfileComponent,
+    data: { title: 'Example send file' }
   }
 ];
 

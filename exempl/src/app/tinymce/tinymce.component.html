@@ -1,0 +1,39 @@
+<div class="container">
+    <h1 class="title">Example add TinyMCE</h1>
+	<span routerLink="/" class="back">
+		<button mat-raised-button>
+			Back
+		</button>
+	</span>
+	<editor
+		[(ngModel)]="text_editor"
+		apiKey="5j30ps530bnxbmuj5t6xefjfaq0ag9ngvm84lhsunqcbl6r5"
+		
+		[init]="{
+			file_picker_callback: true,
+			file_picker_types: 'file image media',
+			images_reuse_filename: true,
+			images_upload_base_path: '/',
+			images_upload_url: 'onfilePost()',
+			base_url: '/tinymce',
+			height: 500, 
+			menubar: true,
+			menubar: 'edit view insert format tools table help',
+			suffix: '.min',
+			plugins: [
+				'advlist autolink lists link image charmap print preview anchor',
+				'searchreplace visualblocks code fullscreen',
+				'insertdatetime media table paste code help wordcount'
+			],
+			toolbar:
+				'undo redo | formatselect | bold italic backcolor | \
+				alignleft aligncenter alignright alignjustify | \
+				bullist numlist outdent indent | removeformat | help'
+		}">
+	</editor>
+	<div>
+		<button mat-raised-button (click)="onGetDataEditor()">
+			get data in editor
+		</button>
+	</div>
+</div>
