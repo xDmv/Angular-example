@@ -25,6 +25,7 @@ import { RecursionComponent } from './recursion/recursion.component';
 import { VideoComponent } from './video/video.component';
 import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
 import { TinymceComponent } from './tinymce/tinymce.component';
+import { GetfileComponent } from './getfile/getfile.component';
 
 
 
@@ -41,7 +42,8 @@ import { TinymceComponent } from './tinymce/tinymce.component';
     RecursionComponent,
     VideoComponent,
     Ckeditor5Component,
-    TinymceComponent
+    TinymceComponent,
+    GetfileComponent
   ],
   imports: [
     BrowserModule,
