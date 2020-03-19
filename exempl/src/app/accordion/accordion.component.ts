@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./accordion.component.scss']
 })
 export class AccordionComponent implements OnInit {
-
+  
+  expo: string = "Expo text string";
+  
   header_code = {
     header: "\nimport { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-accordion',\n  templateUrl: './accordion.component.html',\n  styleUrls: ['./accordion.component.scss']\n})\nexport class AccordionComponent implements OnInit {\n"
   };
@@ -21,6 +23,7 @@ export class AccordionComponent implements OnInit {
     code: "\n.cards {\n    margin: 5% 35% 0px 35%;\n    .card {\n        margin-top: 50px;\n    }\n    .card-title {\n        font-family: 'Times New Roman', Times, serif;\n        font-size: 21px;\n        color: #c2c2c2;\n        text-align: center;\n    }\n    .card-text {\n        font-family: 'Times New Roman', Times, serif;\n        font-size: 16px;\n        color: #0ee0e7dc;\n        text-align: left;\n    }\n}"
   };
   show = null;
+  
 
   data_json = [
     {
@@ -72,18 +75,45 @@ export class AccordionComponent implements OnInit {
   }
 
   ngOnInit() {
+    // let event = new Event('build');
+    // let elt = document.getElementById("elem");
+    // elt.addEventListener('click', funct, false);
+    // function funct() {
+    //   window.myGlobClass.textFromWeb("ok");
+    //   console.log('onClick this button');
+    //   return 'click';
+    // }
+    // elt.dispatchEvent(event);
+    // this.addEvent("play");
+    // this.addEvent("pause");
+    // this.addEvent("previous");
+    // this.addEvent("next");
   }
 
+
   Accordion(idx) {
+    let x: number = 0;
     if (this.isShown(idx)) {
+      // let x :string = "slodvo";
       this.show = null;
+      // console.log("x:=",x);
     } else {
       this.show = idx;
     }
+    // console.log("x:", x);
+    // let elt = document.getElementById("elem");
+    // elt.style.background = 'red';
+    // elt.addEventListener('click', funct, false);
   }
 
   isShown(idx) {
     return this.show === idx;
   }
 
+  experiment(...arg) { 
+    let expo = "hdjfhjdhf";
+    expo = expo + this.expo;
+    console.log(`expo: ${expo}`);
+    console.log(`expo: ${arg[2]}`);
+  }
 }

@@ -1,8 +1,12 @@
 <h1 class="title">Accordion Example</h1>
 <span routerLink="/" class="back"><button mat-raised-button>Back</button></span>
 
-
-
+<div style="margin: 15px;">
+    <button id="play" class="play-button back">Play</button>
+    <button id="pause" class="pause-button back">Pause</button>
+    <button id="previous" class="previous-button back">Pre</button>
+    <button id="next" class="next-button back" (click)="experiment(1, 'two', {three: jone, count: 5})">Next</button>
+</div>
 <mat-tab-group class="tabs">
     <mat-tab>
         <ng-template mat-tab-label>
@@ -10,7 +14,7 @@
         </ng-template>
         <div class="cards">
             <mat-card class="card" *ngFor="let itm of data_json; let i = index;">
-                <p class="card-title" (click)="Accordion('idx'+i)">{{ itm.title }}</p>
+                <p [id]="'indx'+i" class="card-title" (click)="Accordion('idx'+i)">{{ itm.title }}</p>
                 <div class="card-text" *ngIf="isShown('idx'+i)">
                     <ol>
                         <li *ngFor="let itmx of itm.ingredients;">{{ itmx }}</li>
@@ -18,6 +22,7 @@
                 </div>
             </mat-card>
         </div>
+
     </mat-tab>
     <mat-tab>
         <ng-template mat-tab-label>
