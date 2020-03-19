@@ -5,16 +5,16 @@
 			Back
 		</button>
 	</span>
-	<editor
+	<div class="edit">
+		<editor
 		[(ngModel)]="text_editor"
 		apiKey="5j30ps530bnxbmuj5t6xefjfaq0ag9ngvm84lhsunqcbl6r5"
-		
 		[init]="{
 			file_picker_callback: true,
 			file_picker_types: 'file image media',
 			images_reuse_filename: true,
 			images_upload_base_path: '/',
-			images_upload_url: 'onfilePost()',
+			images_upload_url: 'on',
 			base_url: '/tinymce',
 			height: 500, 
 			menubar: true,
@@ -31,6 +31,7 @@
 				bullist numlist outdent indent | removeformat | help'
 		}">
 	</editor>
+	</div>
 	<div>
 		<button mat-raised-button (click)="onGetDataEditor()">
 			get data in editor

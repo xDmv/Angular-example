@@ -13,7 +13,22 @@ export class AccordionComponent implements OnInit {
     header: "\nimport { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-accordion',\n  templateUrl: './accordion.component.html',\n  styleUrls: ['./accordion.component.scss']\n})\nexport class AccordionComponent implements OnInit {\n"
   };
   footer_code = {
-    footer: "\n  constructor() {\n}\n\n  ngOnInit() {\n }\n\n  Accordion(idx) {\n    if (this.isShown(idx)) {\n      this.show = null;\n    } else {\n    this.show = idx;\n    }\n  }\n  isShown(idx) {\n    return this.show === idx;\n  }\n\n}"
+    footer: `
+    constructor() {}
+    
+    ngOnInit() {}
+    
+    Accordion(idx) {
+      if (this.isShown(idx)) {
+        this.show = null;
+      } else {
+        this.show = idx;
+      }  
+    } 
+    
+    isShown(idx) { return this.show === idx; }
+
+    `
   };
   htmlcode =
     {
