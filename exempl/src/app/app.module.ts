@@ -28,7 +28,6 @@ import { TinymceComponent } from './tinymce/tinymce.component';
 import { GetfileComponent } from './getfile/getfile.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
