@@ -13,7 +13,7 @@
 
 			images_upload_url: 'on',
 			base_url: '/tinymce',
-			height: 500, 
+			height: 300, 
 			menubar: true,
 			menubar: 'edit view insert format tools table help',
 			suffix: '.min',
@@ -34,4 +34,12 @@
 			get data in editor
 		</button>
 	</div>
+	<div [innerHTML]="text_editor" style="margin-top: 25px;">
+	</div>
+	<!-- <div>
+		<p [innerHTML]="example_code"></p>
+	</div>
+	<div>
+		{{ example_code }}
+	</div> -->
 </div>
