@@ -1,7 +1,7 @@
 # Angular-exemple
-Angular 8.3.2
+Angular 9.1.1
 
-my experience in development Angular 8+ aplication
+my experience in development Angular 9+ aplication
 
 to view:
 
