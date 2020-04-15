@@ -13,6 +13,9 @@ import { MatVideoModule } from 'mat-video';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import { FormsModule } from '@angular/forms';
 import { EditorModule, TINYMCE_SCRIPT_SRC } from '@tinymce/tinymce-angular';
+import { MatSelectModule } from '@angular/material/select';
+// import { MatOptionModule } from '@angular/material/op';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './accordion/accordion.component';
@@ -56,7 +59,9 @@ import { GetfileComponent } from './getfile/getfile.component';
     MatVideoModule,
     CKEditorModule,
     FormsModule,
-    EditorModule
+    EditorModule,
+    MatSelectModule,
+    MatFormFieldModule
   ],
   providers: [
     { provide: TINYMCE_SCRIPT_SRC, useValue: 'tinymce/tinymce.min.js' }
