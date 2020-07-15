@@ -1,37 +1,34 @@
 <div class="container">
     <h1 class="title">Example add TinyMCE</h1>
-	<span routerLink="/" class="back">
+    <span routerLink="/" class="back">
 		<button mat-raised-button>
 			Back
 		</button>
 	</span>
-	<div class="edit">
-		<editor
-		[(ngModel)]="text_editor"
-		apiKey="5j30ps530bnxbmuj5t6xefjfaq0ag9ngvm84lhsunqcbl6r5"
-		[init]="{
-			images_upload_url: 'on',
+    <div class="edit">
+        <editor [(ngModel)]="text_editor" apiKey="5j30ps530bnxbmuj5t6xefjfaq0ag9ngvm84lhsunqcbl6r5" [init]="{
+			images_upload_url: '',
 			base_url: '/tinymce',
 			height: 300, 
 			menubar: true,
 			suffix: '.min',
 			plugins: [
-				'advlist autolink lists link image charmap print preview anchor',
+				'advlist autolink lists link image charmap preview anchor',
 				'searchreplace visualblocks code fullscreen',
 				'insertdatetime media table paste code help wordcount'
 			],
 			toolbar:
-				'undo redo | formatselect | bold italic backcolor | \
-				alignleft aligncenter alignright alignjustify | \
-				bullist numlist outdent indent | removeformat | help'
+				'forecolor backcolor | formatselect | bold italic underline | 
+				alignleft aligncenter alignright alignjustify | 
+				bullist numlist | image link media | undo redo removeformat | fullscreen help'
 		}">
-	</editor>
-	</div>
-	<div>
-		<button mat-raised-button (click)="onGetDataEditor()">
+        </editor>
+    </div>
+    <div>
+        <button mat-raised-button (click)="onGetDataEditor()">
 			get data in editor
 		</button>
-	</div>
-	<div [innerHTML]="text_editor" style="margin-top: 25px;">
-	</div>
+    </div>
+    <div [innerHTML]="edit_text" style="margin-top: 25px;">
+    </div>
 </div>
