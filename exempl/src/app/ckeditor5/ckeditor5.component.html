@@ -1,61 +1,59 @@
 <div class="container">
     <h1 class="title">Example add CKEditor 5</h1>
-	<span routerLink="/" class="back">
-		<button mat-raised-button>
-			Back
-		</button>
-	</span>
+    <span routerLink="/" class="back">
+        <button mat-raised-button="mat-raised-button">
+            Back
+        </button>
+    </span>
 
-	<mat-tab-group class="tabs">
-		<mat-tab>
-			<ng-template mat-tab-label>
-				<span style="color:blue;">Example View</span>
-			</ng-template>
-			<div class="cards">
-				<ckeditor 
-				[editor]="Editor" 
-				[(ngModel)]="text_editor">
-			</ckeditor>
-			<button 
-				mat-raised-button 
-				(click)="onGetEditor()">
-				Save text Editor
-			</button>
+    <mat-tab-group class="tabs">
+        <mat-tab>
+            <ng-template mat-tab-label="mat-tab-label">
+                <span style="color:blue;">Example View</span>
+            </ng-template>
+            <div class="cards">
+                <ckeditor [editor]="Editor" [(ngModel)]="text_editor"></ckeditor>
+                <button mat-raised-button="mat-raised-button" (click)="onGetEditor()">
+                    Save text Editor
+                </button>
 			</div>
-		</mat-tab>
-		<mat-tab>
-			<ng-template mat-tab-label>
-				<span style="color:blue;">Add npm and create in app.module.ts</span>
-			</ng-template>
-				<p>
-					add npm: npm install --save @ckeditor/ckeditor5-build-classic
-				</p>
-		</mat-tab>
-		<mat-tab>
-			<ng-template mat-tab-label>
-				<span style="color:blue;">HTML</span>
-			</ng-template>
-			<pre>
+			<div class="cards">
+				<ckeditor [editor]="Editor" [(ngModel)]="text_editor2"></ckeditor>
+			</div>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label="mat-tab-label">
+                <span style="color:blue;">Add npm and create in app.module.ts</span>
+            </ng-template>
+            <p>
+                add npm: npm install --save @ckeditor/ckeditor5-build-classic
+            </p>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label="mat-tab-label">
+                <span style="color:blue;">HTML</span>
+            </ng-template>
+            <pre>
 				{{ html_code }}
 			</pre>
-		</mat-tab>
-		<mat-tab>
-			<ng-template mat-tab-label>
-				<span style="color:blue;">TS</span>
-			</ng-template>
-			<pre>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label="mat-tab-label">
+                <span style="color:blue;">TS</span>
+            </ng-template>
+            <pre>
 				<code>
 					{{ts_code}}
 				</code>
 			</pre>
-		</mat-tab>
-		<mat-tab>
-			<ng-template mat-tab-label>
-				<span style="color:blue;">CSS</span>
-			</ng-template>
-			<pre>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label="mat-tab-label">
+                <span style="color:blue;">CSS</span>
+            </ng-template>
+            <pre>
 				Not found!
 			</pre>
-		</mat-tab>
-	</mat-tab-group>
+        </mat-tab>
+    </mat-tab-group>
 </div>

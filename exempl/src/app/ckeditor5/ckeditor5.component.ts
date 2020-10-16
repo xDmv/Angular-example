@@ -10,6 +10,7 @@ export class Ckeditor5Component implements OnInit {
 
   public Editor = ClassicEditor;
   text_editor : any;
+  text_editor2 : any;
   ts_code : any = `
     import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
@@ -42,6 +43,7 @@ export class Ckeditor5Component implements OnInit {
 
   onGetEditor(){
     console.log('editor:  ', this.text_editor);
+    this.text_editor2 = this.text_editor;
   }
 
 }
