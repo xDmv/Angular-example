@@ -29,6 +29,7 @@ import { VideoComponent } from './video/video.component';
 import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
 import { TinymceComponent } from './tinymce/tinymce.component';
 import { GetfileComponent } from './getfile/getfile.component';
+import { MultiAccardionComponent } from './multi-accardion/multi-accardion.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { GetfileComponent } from './getfile/getfile.component';
     VideoComponent,
     Ckeditor5Component,
     TinymceComponent,
-    GetfileComponent
+    GetfileComponent,
+    MultiAccardionComponent
   ],
   imports: [
     BrowserModule,
