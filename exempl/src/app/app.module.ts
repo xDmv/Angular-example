@@ -15,7 +15,8 @@ import { FormsModule } from '@angular/forms';
 import { EditorModule, TINYMCE_SCRIPT_SRC } from '@tinymce/tinymce-angular';
 import { MatSelectModule } from '@angular/material/select';
 // import { MatOptionModule } from '@angular/material/op';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { HttpClientModule } from '@angular/common/http';
 
 import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './accordion/accordion.component';
@@ -29,8 +30,6 @@ import { VideoComponent } from './video/video.component';
 import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
 import { TinymceComponent } from './tinymce/tinymce.component';
 import { GetfileComponent } from './getfile/getfile.component';
-import { MultiAcardionComponent } from './multi-acardion/multi-acardion.component';
-
 
 
 @NgModule({
@@ -48,7 +47,6 @@ import { MultiAcardionComponent } from './multi-acardion/multi-acardion.componen
     Ckeditor5Component,
     TinymceComponent,
     GetfileComponent,
-    MultiAcardionComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +62,8 @@ import { MultiAcardionComponent } from './multi-acardion/multi-acardion.componen
     FormsModule,
     EditorModule,
     MatSelectModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    HttpClientModule
   ],
   providers: [
     { provide: TINYMCE_SCRIPT_SRC, useValue: 'tinymce/tinymce.min.js' }

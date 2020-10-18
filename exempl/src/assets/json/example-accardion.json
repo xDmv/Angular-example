@@ -1,0 +1,343 @@
+{
+    "data": [
+        {
+            "liga_id": 1,
+            "icon": "https://s-cdn.sportbox.ru/images/styles/800_800_auto/fp_fotos/d9/66/b3449838fdd0b367477c0752151b329e57f3d86a8462e898236602.jpg",
+            "liga_name": "Super cubok",
+            "match": [
+                {
+                    "id": 1,
+                    "colors": {
+                        "localteam": {
+                            "color": "#C40010",
+                            "kit_colors": "#F0F0F0,#C40010,#D446BA,#00C1BA,#C40010,#0046A8,#C40010"
+                        },
+                        "visitorteam": {
+                            "color": "#B0E8E6",
+                            "kit_colors": "#B0E8E6,#B0E8E6,#00C1BA,#00C1BA,#C40010,#0046A8,#000080"
+                        }
+                    },
+                    "scores": {
+                        "localteam_score": 2,
+                        "visitorteam_score": 2,
+                        "localteam_pen_score": null,
+                        "visitorteam_pen_score": null,
+                        "ht_score": "0-1",
+                        "ft_score": "0-2",
+                        "et_score": null,
+                        "ps_score": null
+                    },
+                    "localTeam": {
+                        "data": {
+                            "id": 15480,
+                            "legacy_id": 10492,
+                            "name": "Real Madriz",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 3990,
+                            "national_team": false,
+                            "founded": 1996,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images/soccer/team_placeholder.png",
+                            "venue_id": 11218,
+                            "current_season_id": 16419
+                        }
+                    },
+                    "visitorTeam": {
+                        "data": {
+                            "id": 13481,
+                            "legacy_id": null,
+                            "name": "Walter Ferreti",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 3990,
+                            "national_team": false,
+                            "founded": 1987,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images//soccer/teams/9/13481.png",
+                            "venue_id": 9350,
+                            "current_season_id": 16419
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "colors": {
+                        "localteam": {
+                            "color": "#C40010",
+                            "kit_colors": "#F0F0F0,#C40010,#D446BA,#00C1BA,#C40010,#0046A8,#C40010"
+                        },
+                        "visitorteam": {
+                            "color": "#B0E8E6",
+                            "kit_colors": "#B0E8E6,#B0E8E6,#00C1BA,#00C1BA,#C40010,#0046A8,#000080"
+                        }
+                    },
+                    "scores": {
+                        "localteam_score": 2,
+                        "visitorteam_score": 2,
+                        "localteam_pen_score": null,
+                        "visitorteam_pen_score": null,
+                        "ht_score": "1-1",
+                        "ft_score": "2-4",
+                        "et_score": null,
+                        "ps_score": null
+                    },
+                    "localTeam": {
+                        "data": {
+                            "id": 15480,
+                            "legacy_id": 10492,
+                            "name": "Aregona",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 3990,
+                            "national_team": false,
+                            "founded": 1996,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images/soccer/team_placeholder.png",
+                            "venue_id": 11218,
+                            "current_season_id": 16419
+                        }
+                    },
+                    "visitorTeam": {
+                        "data": {
+                            "id": 13481,
+                            "legacy_id": null,
+                            "name": "Ferreti Marselo",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 3990,
+                            "national_team": false,
+                            "founded": 1987,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images//soccer/teams/9/13481.png",
+                            "venue_id": 9350,
+                            "current_season_id": 16419
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "liga_id": 2,
+            "icon": "https://ss.sport-express.ru/userfiles/materials/120/1202721/origin.jpg",
+            "liga_name": "Chaild cubok",
+            "match": [
+                {
+                    "id": 5,
+                    "colors": {
+                        "localteam": {
+                            "color": "#C40010",
+                            "kit_colors": "#F0F0F0,#C40010,#D446BA,#00C1BA,#C40010,#0046A8,#C40010"
+                        },
+                        "visitorteam": {
+                            "color": "#B0E8E6",
+                            "kit_colors": "#B0E8E6,#B0E8E6,#00C1BA,#00C1BA,#C40010,#0046A8,#000080"
+                        }
+                    },
+                    "scores": {
+                        "localteam_score": 2,
+                        "visitorteam_score": 2,
+                        "localteam_pen_score": null,
+                        "visitorteam_pen_score": null,
+                        "ht_score": "0-1",
+                        "ft_score": "2-2",
+                        "et_score": null,
+                        "ps_score": null
+                    },
+                    "localTeam": {
+                        "data": {
+                            "id": 15480,
+                            "legacy_id": 10492,
+                            "name": "Real Madriz",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 3990,
+                            "national_team": false,
+                            "founded": 1996,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images/soccer/team_placeholder.png",
+                            "venue_id": 11218,
+                            "current_season_id": 16419
+                        }
+                    },
+                    "visitorTeam": {
+                        "data": {
+                            "id": 13481,
+                            "legacy_id": null,
+                            "name": "Walter Ferreti",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 3990,
+                            "national_team": false,
+                            "founded": 1987,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images//soccer/teams/9/13481.png",
+                            "venue_id": 9350,
+                            "current_season_id": 16419
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "colors": {
+                        "localteam": {
+                            "color": "#C40010",
+                            "kit_colors": "#F0F0F0,#C40010,#D446BA,#00C1BA,#C40010,#0046A8,#C40010"
+                        },
+                        "visitorteam": {
+                            "color": "#B0E8E6",
+                            "kit_colors": "#B0E8E6,#B0E8E6,#00C1BA,#00C1BA,#C40010,#0046A8,#000080"
+                        }
+                    },
+                    "scores": {
+                        "localteam_score": 2,
+                        "visitorteam_score": 2,
+                        "localteam_pen_score": null,
+                        "visitorteam_pen_score": null,
+                        "ht_score": "2-0",
+                        "ft_score": "5-0",
+                        "et_score": null,
+                        "ps_score": null
+                    },
+                    "localTeam": {
+                        "data": {
+                            "id": 10480,
+                            "legacy_id": 2,
+                            "name": "Yamayka",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 3990,
+                            "national_team": false,
+                            "founded": 1996,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images/soccer/team_placeholder.png",
+                            "venue_id": 11218,
+                            "current_season_id": 16419
+                        }
+                    },
+                    "visitorTeam": {
+                        "data": {
+                            "id": 13451,
+                            "legacy_id": 2,
+                            "name": "Argentina",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 3990,
+                            "national_team": false,
+                            "founded": 2007,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images//soccer/teams/9/13481.png",
+                            "venue_id": 9350,
+                            "current_season_id": 16419
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "liga_id": 3,
+            "icon": "https://s-cdn.sportbox.ru/images/styles/800_800_auto/fp_fotos/47/29/139df3a6979842f4a7c17ba780dcdf0957f3d86a21389207098934.jpg",
+            "liga_name": "Figvam",
+            "match": [
+                {
+                    "id": 4,
+                    "colors": {
+                        "localteam": {
+                            "color": "#C40010",
+                            "kit_colors": "#F0F0F0,#C40010,#D446BA,#00C1BA,#C40010,#0046A8,#C40010"
+                        },
+                        "visitorteam": {
+                            "color": "#B0E8E6",
+                            "kit_colors": "#B0E8E6,#B0E8E6,#00C1BA,#00C1BA,#C40010,#0046A8,#000080"
+                        }
+                    },
+                    "scores": {
+                        "localteam_score": 2,
+                        "visitorteam_score": 2,
+                        "localteam_pen_score": null,
+                        "visitorteam_pen_score": null,
+                        "ht_score": "1-1",
+                        "ft_score": "2-3",
+                        "et_score": null,
+                        "ps_score": null
+                    },
+                    "localTeam": {
+                        "data": {
+                            "id": 15580,
+                            "legacy_id": 10492,
+                            "name": "Dinamo",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 2990,
+                            "national_team": false,
+                            "founded": 2000,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images/soccer/team_placeholder.png",
+                            "venue_id": 11218,
+                            "current_season_id": 16419
+                        }
+                    },
+                    "visitorTeam": {
+                        "data": {
+                            "id": 13581,
+                            "legacy_id": null,
+                            "name": "Spartak",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 1990,
+                            "national_team": false,
+                            "founded": 1983,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images//soccer/teams/9/13481.png",
+                            "venue_id": 9350,
+                            "current_season_id": 16419
+                        }
+                    }
+                },
+                {
+                    "id": 14,
+                    "colors": {
+                        "localteam": {
+                            "color": "#C40010",
+                            "kit_colors": "#F0F0F0,#C40010,#D446BA,#00C1BA,#C40010,#0046A8,#C40010"
+                        },
+                        "visitorteam": {
+                            "color": "#B0E8E6",
+                            "kit_colors": "#B0E8E6,#B0E8E6,#00C1BA,#00C1BA,#C40010,#0046A8,#000080"
+                        }
+                    },
+                    "scores": {
+                        "localteam_score": 2,
+                        "visitorteam_score": 2,
+                        "localteam_pen_score": null,
+                        "visitorteam_pen_score": null,
+                        "ht_score": "2-1",
+                        "ft_score": "4-3",
+                        "et_score": null,
+                        "ps_score": null
+                    },
+                    "localTeam": {
+                        "data": {
+                            "id": 15580,
+                            "legacy_id": 10492,
+                            "name": "Shahter",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 2990,
+                            "national_team": false,
+                            "founded": 2006,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images/soccer/team_placeholder.png",
+                            "venue_id": 11218,
+                            "current_season_id": 16419
+                        }
+                    },
+                    "visitorTeam": {
+                        "data": {
+                            "id": 13581,
+                            "legacy_id": null,
+                            "name": "Spartak",
+                            "short_code": null,
+                            "twitter": null,
+                            "country_id": 1995,
+                            "national_team": false,
+                            "founded": 1985,
+                            "logo_path": "https://nigm.dev.hollysoft.com//images//soccer/teams/9/13481.png",
+                            "venue_id": 9350,
+                            "current_season_id": 16419
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -11,6 +11,7 @@ import { VideoComponent } from './video/video.component';
 import { Ckeditor5Component } from './ckeditor5/ckeditor5.component';
 import { TinymceComponent } from './tinymce/tinymce.component';
 import { GetfileComponent } from './getfile/getfile.component';
+import { MultiAccardionComponent } from './multi-accardion/multi-accardion.component';
 
 
 const routes: Routes = [
@@ -62,6 +63,11 @@ const routes: Routes = [
     path: 'postfile',
     component: GetfileComponent,
     data: { title: 'Example send file' }
+  },
+  {
+    path: 'multiaccardion',
+    loadChildren: () => import('./multi-accardion/multi-accardion.module').then( m => m.MultiAccardionModule ),
+    data: { title: 'Example multi accardion' }
   }
 ];
 

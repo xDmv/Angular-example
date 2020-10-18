@@ -1,1 +1,43 @@
-<p>multi-accardion works!</p>
+<h1 class="title">Example multi accardion</h1>
+
+<div class="container">
+    <span routerLink="/" class="back">
+        <button mat-raised-button>
+            Back
+        </button>
+    </span>
+    <div class="example">
+        <h3>Example lite</h3>
+        <div class="liga" *ngFor="let liga of ligaData; let i = index;">
+            <h4 class="liga-name" (click)="toggeleAccardion(i)"><img [src]="liga.icon" alt="" height="36px"> {{ liga.liga_name }}</h4>
+            <div class="list-match" *ngIf="firstAccardion[i] === true">
+                <div *ngFor="let match of liga.match; ">
+                    <p>
+                        <span>
+                            {{ match.localTeam.data.name }}
+                            <img [src]="match.localTeam.data.logo_path" alt="" height="24px">
+                        </span>
+                        <span>{{ match.scores.ft_score }}</span>
+                        <span>
+                            {{ match.visitorTeam.data.name  }}
+                            <img [src]="match.visitorTeam.data.logo_path" alt="" height="24px">
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Example lite version with component liga</h3>
+    <div class="example">
+        <div class="liga" *ngFor="let liga of ligaData; let i = index;">
+            <h4 class="liga-name" (click)="toggeleAccardion(i)"><img [src]="liga.icon" alt="" height="36px"> {{ liga.liga_name }}</h4>
+            <app-liga></app-liga>
+        </div>
+    </div>
+    <h3>Example with localstore and component liga</h3>
+    <div>
+    
+    </div>
+</div>
+

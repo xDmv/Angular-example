@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MultiAcardionComponent } from './multi-acardion.component';
+import { LigaComponent } from './liga.component';
 
-describe('MultiAcardionComponent', () => {
-  let component: MultiAcardionComponent;
-  let fixture: ComponentFixture<MultiAcardionComponent>;
+describe('LigaComponent', () => {
+  let component: LigaComponent;
+  let fixture: ComponentFixture<LigaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MultiAcardionComponent ]
+      declarations: [ LigaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MultiAcardionComponent);
+    fixture = TestBed.createComponent(LigaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
